@@ -61,6 +61,9 @@ Codeage::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
+  config.github_app_id = 'ba8f4df9f45a88476f2c'
+  config.github_app_secret = '6c395f0d9feeda3b010826f37fa0f597cb0a5e14'
+
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
