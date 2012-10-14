@@ -71,8 +71,8 @@ Codeage::Application.configure do
   config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :user_name            => 'skeptic.empiricus',
-    :password             => 'c.160-210AD',
+    :user_name            => 'noreply@codeage.net',
+    :password             => 'esZrxfg7t6ygby89uihter',
     :authentication       => 'plain',
     :enable_starttls_auto => true  
   }  
